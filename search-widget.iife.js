@@ -28,9 +28,15 @@ Error generating stack: `+u.message+`
                     grid-cols-2 sm:grid-cols-2 md:grid-cols-4\r
                     gap-4 md:gap-6\r
                   `,children:f.productsToRender.map((p,S)=>{const b=p.raw.title,C=p.raw.sku,A=p.raw.ec_price,O=p.raw.thumbnail_image_desktop_image,q=p.raw.flavours,_=p.raw.size_str;return Ie.jsxs("div",{id:"new-search-bar-product-card",className:"relative group cursor-pointer bg-white p-4 rounded-md shadow-md hover:shadow-xl hover:scale-105 transform transition-all duration-300",onMouseDown:R=>{R.preventDefault(),window.location.href=`${o}/${s}/Shop/Catalog/Items/Index/Ds/${C}`},children:[Ie.jsx("div",{id:"new-search-bar-product-card-image-container",className:"relative h-[240px] flex items-center justify-center mb-3 overflow-hidden",children:Ie.jsx("img",{id:"new-search-bar-product-card-image",src:O||"/placeholder.svg",alt:b,className:"object-contain h-full w-full p-4 group-hover:scale-105 transition-transform"})}),Ie.jsxs("div",{id:"new-search-bar-product-card-flavour",className:"flex items-center gap-1.5 mb-2 rounded-full bg-white w-max px-2 py-1",children:[Ie.jsx("span",{id:"new-search-bar-product-card-flavour-indicator",className:"w-3 h-3 rounded-full bg-gray-400 border border-gray-300"}),Ie.jsx("span",{id:"new-search-bar-product-card-flavour-text",className:`\r
-                              text-xs text-gray-600 leading-tight line-clamp-2\r
-                              max-w-[90px] sm:max-w-none block\r
-                            `,children:q||"Original"})]}),Ie.jsxs("div",{id:"new-search-bar-product-card-info",className:"space-y-1",children:[Ie.jsx("p",{id:"new-search-bar-product-card-name",className:"font-bold text-sm text-gray-900 leading-tight line-clamp-3 min-h-[2.5rem]",children:b}),Ie.jsx("p",{id:"new-search-bar-product-card-size",className:"text-xs text-gray-500",children:_||" "}),Ie.jsx("div",{id:"new-search-bar-product-card-price-section",className:"flex items-baseline gap-1 pt-1",children:Ie.jsxs("p",{id:"new-search-bar-product-card-price",className:"font-bold text-base text-gray-900",children:["$",A?.toFixed(2)]})}),Ie.jsx("p",{id:"new-search-bar-product-card-your-price",className:"text-xs text-gray-400",children:"Your price"})]})]},`${C}-${S}`)})},"products-grid")]})]}):null})})]})};function _1(e,t){const a=`
+                              text-xs text-gray-600 leading-tight\r
+                              block\r
+                              max-w-[140px]\r
+                              overflow-hidden\r
+                              whitespace-nowrap\r
+                              text-ellipsis\r
+                            `,children:q||"Original"})]}),Ie.jsxs("div",{id:"new-search-bar-product-card-info",className:"space-y-1",children:[Ie.jsx("p",{id:"new-search-bar-product-card-name",className:`font-bold text-sm text-gray-900 leading-tight\r
+                            line-clamp-2\r
+                            min-h-[2rem]`,children:b}),Ie.jsx("p",{id:"new-search-bar-product-card-size",className:"text-xs text-gray-500",children:_||" "}),Ie.jsx("div",{id:"new-search-bar-product-card-price-section",className:"flex items-baseline gap-1 pt-1",children:Ie.jsxs("p",{id:"new-search-bar-product-card-price",className:"font-bold text-base text-gray-900",children:["$",A?.toFixed(2)]})}),Ie.jsx("p",{id:"new-search-bar-product-card-your-price",className:"text-xs text-gray-400",children:"Your price"})]})]},`${C}-${S}`)})},"products-grid")]})]}):null})})]})};function _1(e,t){const a=`
   The following properties are invalid:
 
     ${e.join(`
