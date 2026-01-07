@@ -52,7 +52,7 @@ Error generating stack: `+u.message+`
                     grid-cols-2 sm:grid-cols-2 lg:grid-cols-4\r
                     gap-4 lg:gap-6\r
                   `,children:f.productsToRender.map((p,S)=>{const b=p.raw.title,C=p.raw.sku;p.raw.ec_price;const A=p.raw.thumbnail_image_desktop_image,E=p.raw.flavours,q=p.raw.size_str;return Ie.jsxs("div",{id:"new-search-bar-product-card",className:"relative group cursor-pointer bg-white p-4 rounded-md shadow-md hover:shadow-xl hover:scale-105 transform transition-all duration-300",onMouseDown:_=>{_.preventDefault(),window.location.href=`${o}/${s}/Shop/Catalog/Items/Index/Ds/${C}`},children:[Ie.jsx("div",{id:"new-search-bar-product-card-image-container",className:"relative h-[240px] flex items-center justify-center mb-3 overflow-hidden",children:Ie.jsx("img",{id:"new-search-bar-product-card-image",src:A||"/placeholder.svg",alt:b,className:"object-contain h-full w-full p-4 group-hover:scale-105 transition-transform"})}),Ie.jsxs("div",{id:"new-search-bar-product-card-flavour",className:"flex items-center gap-1.5 mb-2 rounded-full bg-white w-max px-2 py-1",children:[Ie.jsx("span",{id:"new-search-bar-product-card-flavour-indicator",className:"w-3 h-3 rounded-full bg-gray-400 border border-gray-300"}),Ie.jsx("span",{id:"new-search-bar-product-card-flavour-text",className:`\r
-                              text-xs text-gray-600 leading-tight\r
+                              text-[10px] sm:text-xs text-gray-600 leading-tight\r
                               block\r
                               max-w-[140px]\r
                               overflow-hidden\r
