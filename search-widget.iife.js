@@ -18,7 +18,8 @@ Error generating stack: `+u.message+`
                   absolute\r
                   right-2\r
                   top-1/2\r
-                  translate-y-[-45%]\r
+                  -translate-y-1/2\r
+                  mt-[2px]\r
                   bg-transparent\r
                   border-0\r
                   p-0\r
